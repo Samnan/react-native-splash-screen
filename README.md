@@ -23,9 +23,6 @@ A splash screen API for react-native which can programatically hide and show the
 - [Contribution](#contribution)
 
 
-## Changes
-For React Native >= 0.47.0 use [v3.+](https://github.com/crazycodeboy/react-native-splash-screen/releases), for React Native < 0.47.0 use [v2.1.0](https://github.com/crazycodeboy/react-native-splash-screen/releases/tag/v1.0.9)
-
 ## Examples
 * [Examples](https://github.com/crazycodeboy/react-native-splash-screen/tree/master/examples)
 
@@ -169,6 +166,8 @@ Update `AppDelegate.m` with the following additions:
 ```
 
 Create a LaunchScreen.storyboard and make sure the root view controller has a storyboard identifier of "LaunchScreen".
+
+![LaunchScreen.storyboard](https://raw.githubusercontent.com/dater-com/react-native-splash-screen/7f25ce34e87642bcfc264071ec9c576fdff60fd0/XCode-Launchboard.png)
 
 ## Getting started
 
