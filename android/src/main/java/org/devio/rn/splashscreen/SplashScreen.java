@@ -23,8 +23,6 @@ public class SplashScreen {
      */
     public static void show(final Activity activity, final int themeResId) {
         if (activity == null) return;
-        if (mSplashDialog != null) return;
-
         mActivity = new WeakReference<Activity>(activity);
         activity.runOnUiThread(new Runnable() {
             @Override
@@ -45,9 +43,8 @@ public class SplashScreen {
     /**
      * 打开启动屏
      */
-    public static void show(final Activity activity, final boolean fullScreen) {
-        int resourceId = fullScreen ? R.style.SplashScreen_Fullscreen : R.style.SplashScreen_SplashTheme;
-
+    public static void show(final Activity activity, final boolean animateIn) {
+        int resourceId = animateIn ? R.style.SplashScreen_AnimateIn : R.style.SplashScreen_Startup;
         show(activity, resourceId);
     }
 
