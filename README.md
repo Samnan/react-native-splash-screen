@@ -1,13 +1,11 @@
 # react-native-splash-screen
 
 
-[![Download](https://img.shields.io/badge/Download-v3.2.0-ff69b4.svg) ](https://www.npmjs.com/package/react-native-splash-screen)
-[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/react-native-splash-screen/pulls)
-[ ![react-native-splash-screen release](https://img.shields.io/github/release/crazycodeboy/react-native-splash-screen.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/GitHubPopular/releases)
-[ ![语言 中文](https://img.shields.io/badge/语言-中文-feb252.svg)](https://github.com/crazycodeboy/react-native-splash-screen/blob/master/README.zh.md)
+[![Download](https://img.shields.io/badge/Download-v3.3.0-ff69b4.svg) ](https://www.npmjs.com/package/react-native-splash-screen)
+[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/dater-com/react-native-splash-screen/pulls)
+[ ![react-native-splash-screen release](https://img.shields.io/github/release/crazycodeboy/react-native-splash-screen.svg?maxAge=2592000?style=flat-square)](https://github.com/dater-com/GitHubPopular/releases)
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/crazycodeboy/react-native-check-box/master/LICENSE)
-[ ![原理 解析](https://img.shields.io/badge/原理-解析-brightgreen.svg)](https://github.com/crazycodeboy/RNStudyNotes/blob/master/React%20Native%20%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%90%88%E9%9B%86/React%20Native%20%E5%90%AF%E5%8A%A8%E7%99%BD%E5%B1%8F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%95%99%E7%A8%8B/React%20Native%20%E5%90%AF%E5%8A%A8%E7%99%BD%E5%B1%8F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%95%99%E7%A8%8B.md)
-[ ![Flutter](https://img.shields.io/badge/Flutter-brightgreen.svg)](https://github.com/crazycodeboy/flutter_splash_screen)
+[ ![Flutter](https://img.shields.io/badge/Flutter-brightgreen.svg)](https://github.com/dater-com/flutter_splash_screen)
 
 A splash screen API for react-native which can programatically hide and show the splash screen. Works on iOS and Android.
 
@@ -24,7 +22,7 @@ A splash screen API for react-native which can programatically hide and show the
 
 
 ## Examples
-* [Examples](https://github.com/crazycodeboy/react-native-splash-screen/tree/master/examples)
+* [Examples](https://github.com/dater-com/react-native-splash-screen/tree/master/examples)
 
 ![react-native-splash-screen-Android](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/v3.0.0/examples/Screenshots/react-native-splash-screen-Android.gif)
 ![react-native-splash-screen-iOS](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/v3.0.0/examples/Screenshots/react-native-splash-screen-iOS.gif)
@@ -225,7 +223,7 @@ Open `android/app/src/main/res/values/styles.xml` and add `<item name="android:w
 ```
 To remove the white screen when the app starts open `android/app/src/main/res/values/styles.xml` and add  `<item name="android:windowDisablePreview">true</item>` to "AppTheme" like in the above example.
 
-**To learn more see [examples](https://github.com/crazycodeboy/react-native-splash-screen/tree/master/examples)**
+**To learn more see [examples](https://github.com/dater-com/react-native-splash-screen/tree/master/examples)**
 
 
 If you want to customize the color of the status bar when the splash screen is displayed:
@@ -257,7 +255,7 @@ SplashScreen.show(this, R.style.SplashScreenTheme);
 
 Customize your splash screen via `LaunchImage` or `LaunchScreen.xib`,
 
-**Learn more to see [examples](https://github.com/crazycodeboy/react-native-splash-screen/tree/master/examples)**
+**Learn more to see [examples](https://github.com/dater-com/react-native-splash-screen/tree/master/examples)**
 
 ## Usage
 
@@ -328,4 +326,4 @@ Pull requests are welcome. If you want to change the API or do something big it 
 
 ---
 
-**[MIT Licensed](https://github.com/crazycodeboy/react-native-splash-screen/blob/master/LICENSE)**
+**[MIT Licensed](https://github.com/dater-com/react-native-splash-screen/blob/master/LICENSE)**
